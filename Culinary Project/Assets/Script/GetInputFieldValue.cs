@@ -107,4 +107,28 @@ public class GetInputFieldValue : MonoBehaviour
         //make cpu show up on screen
         calculatedNumber.text = cpu.ToString();
     }
+    public void Quit()
+    {
+        Application.Quit();
+    }
+    public void Clear()
+    {
+        amt1.text = 0.ToString();
+        amt2.text = 0.ToString();
+        amt3.text = 0.ToString();
+        amt4.text = 0.ToString();
+        amt5.text = 0.ToString();
+        amt6.text = 0.ToString();
+        amt7.text = 0.ToString();
+        cost1.text = 0.ToString();
+        cost2.text = 0.ToString();
+        cost3.text = 0.ToString();
+        cost4.text = 0.ToString();
+        cost5.text = 0.ToString();
+        cost6.text = 0.ToString();
+        cost7.text = 0.ToString();
+        markupBox.text = 0.ToString();
+        unitsSold.text = 0.ToString();
+        calculatedNumber.text = 0.ToString();
+    }
 }
